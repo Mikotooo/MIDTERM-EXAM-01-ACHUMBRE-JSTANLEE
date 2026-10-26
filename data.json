@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "activity": "Island hopping tour",
+    "location": "Bohol",
+    "date": "2026-11-05",
+    "start_time": "08:00",
+    "category": "Sightseeing"
+  },
+  {
+    "id": 2,
+    "activity": "Lunch at the floating restaurant",
+    "location": "Loboc River, Bohol",
+    "date": "2026-11-05",
+    "start_time": "12:00",
+    "category": "Food"
+  },
+  {
+    "id": 3,
+    "activity": "Flight to Cebu",
+    "location": "Mactan-Cebu International Airport",
+    "date": "2026-11-04",
+    "start_time": "14:30",
+    "category": "Transport"
+  },
+  {
+    "id": 4,
+    "activity": "Whale watching",
+    "location": "Oslob",
+    "date": "2026-02-22",
+    "start_time": "14:00",
+    "category": "Transport"
+  }
+]

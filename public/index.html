@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Travel Itinerary</title>
+</head>
+<body>
+  <h1>Travel Itinerary Management System</h1>
+
+  <h2>Add Activity</h2>
+  <form id="addForm">
+    <p>Activity: <input name="activity" required /></p>
+    <p>Location: <input name="location" required /></p>
+    <p>Date: <input name="date" type="date" required /></p>
+    <p>Start time: <input name="start_time" type="time" required /></p>
+    <p>Category: <input name="category" required /></p>
+    <button type="submit">Add</button>
+  </form>
+  <p id="addMsg"></p>
+
+  <h2>Find Activity by ID</h2>
+  <form id="searchForm">
+    ID: <input name="id" type="number" min="1" required />
+    <button type="submit">Search</button>
+  </form>
+  <div id="searchResult"></div>
+
+  <h2>All Activities</h2>
+  <button id="refreshBtn">Refresh</button>
+  <p id="listMsg"></p>
+  <table border="1">
+    <thead>
+      <tr><th>ID</th><th>Date</th><th>Start</th><th>Activity</th><th>Location</th><th>Category</th><th>Action</th></tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+
+  <script src="app.js"></script>
+</body>
+</html>
